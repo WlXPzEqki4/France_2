@@ -42,6 +42,9 @@ export interface KeyContact {
   name: string;
   title: string;
   description: string;
+
+  extendedDescription?: string; // Add this new optional field
+ 
   influence: "high" | "medium" | "low";
   imageUrl?: string;
   pdfLink?: string; // <-- add this optional field
