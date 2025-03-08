@@ -73,6 +73,8 @@
 
 import React, { useState, useEffect } from "react";
 import { ChevronDown } from "lucide-react";
+import backgroundImage from "/src/assets/images/uae-france-background.png";
+
 
 export const IntroSection = () => {
   const [scrollOpacity, setScrollOpacity] = useState(1);
@@ -101,7 +103,8 @@ export const IntroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center pointer-events-none transition-opacity duration-200"
         style={{
-          backgroundImage: "url('/src/assets/images/uae-france-background.png')",
+          // backgroundImage: "url('/src/assets/images/uae-france-background.png')",
+          backgroundImage: `url(${backgroundImage})`,
           opacity: scrollOpacity,
           filter: "opacity(0.75)" // Added filter to make image slightly opaque from the start
 
