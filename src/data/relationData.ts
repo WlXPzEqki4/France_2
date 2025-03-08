@@ -484,23 +484,31 @@ export const relationsSections: SectionData[] = [
     ],
     timeline: [
       {
-        year: "2023",
-        title: "UAE Hosts COP28",
-        description: "The UAE hosted the UN Climate Change Conference, highlighting its commitment to sustainability, an area where Sweden has extensive expertise.",
+        year: "December 2021",
+        title: "Historic Rafale Deal",
+        description: "President Emmanuel Macron visits UAE; historic €16 billion deal signed for 80 Rafale jets.",
         type: "positive"
       },
       {
-        year: "2024",
-        title: "Legal Cooperation Agreements",
-        description: "Sweden and the UAE sign new agreements on mutual legal assistance and extradition to combat organized crime.",
+        year: "July 2022",
+        title: "Energy Partnership Launch",
+        description: "UAE–France Comprehensive Strategic Energy Partnership launched to boost cooperation in hydrogen, renewables, and nuclear energy.",
         type: "positive"
       },
       {
-        year: "2024",
-        title: "Tawdheef Job Fair",
-        description: "Sweden became the first foreign country to host a national pavilion at the UAE's Tawdheef job fair.",
+        year: "February 2023",
+        title: "Trilateral Initiative",
+        description: "UAE, and India launch trilateral cooperation on Indo-Pacific security, including joint military drills and naval coordination.",
         type: "positive"
-      }
+      },
+      {
+        year: "December 2023",
+        title: "COP28 Collaboration",
+        description: "President Macron attends COP28 in Dubai, reaffirming strong bilateral alignment on global climate action.",
+        type: "positive"
+      },
+
+
     ]
   },
   {
