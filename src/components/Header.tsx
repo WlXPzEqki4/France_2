@@ -32,11 +32,11 @@ export const Header: React.FC = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#political-diplomatic" className="text-sm hover:text-sweden transition-colors duration-200">Political Ties</a>
-            <a href="#economic-trade" className="text-sm hover:text-sweden transition-colors duration-200">Economic Relations</a>
-            <a href="#cooperation" className="text-sm hover:text-sweden transition-colors duration-200">Cooperation</a>
-            <a href="#sweden-mb" className="text-sm hover:text-sweden transition-colors duration-200">Key Positions</a>
-            <a href="#key-contacts" className="text-sm hover:text-sweden transition-colors duration-200">Contacts</a>
+            <a href="#political-diplomatic" className="text-sm hover:text-france transition-colors duration-200">Political Ties</a>
+            <a href="#economic-trade" className="text-sm hover:text-france transition-colors duration-200">Economic Relations</a>
+            <a href="#cooperation" className="text-sm hover:text-france transition-colors duration-200">Cooperation</a>
+            <a href="#france-mb" className="text-sm hover:text-france transition-colors duration-200">Key Positions</a>
+            <a href="#key-contacts" className="text-sm hover:text-france transition-colors duration-200">Contacts</a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -57,56 +57,56 @@ export const Header: React.FC = () => {
             <nav className="flex flex-col space-y-4">
               <a 
                 href="#political-diplomatic" 
-                className="py-2 text-sm hover:text-sweden transition-colors duration-200"
+                className="py-2 text-sm hover:text-france transition-colors duration-200"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Political & Diplomatic Ties
               </a>
               <a 
                 href="#economic-trade" 
-                className="py-2 text-sm hover:text-sweden transition-colors duration-200"
+                className="py-2 text-sm hover:text-france transition-colors duration-200"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Economic & Trade Relations
               </a>
               <a 
                 href="#cooperation" 
-                className="py-2 text-sm hover:text-sweden transition-colors duration-200"
+                className="py-2 text-sm hover:text-france transition-colors duration-200"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Areas of Cooperation
               </a>
               <a 
                 href="#tensions" 
-                className="py-2 text-sm hover:text-sweden transition-colors duration-200"
+                className="py-2 text-sm hover:text-france transition-colors duration-200"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Points of Tension
               </a>
               <a 
-                href="#sweden-mb" 
-                className="py-2 text-sm hover:text-sweden transition-colors duration-200"
+                href="#france-mb" 
+                className="py-2 text-sm hover:text-france transition-colors duration-200"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Sweden's Key Positions
+                France's Key Positions
               </a>
               <a 
                 href="#key-contacts" 
-                className="py-2 text-sm hover:text-sweden transition-colors duration-200"
+                className="py-2 text-sm hover:text-france transition-colors duration-200"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Key Swedish Contacts
               </a>
               <a 
                 href="#unfriendly-entities" 
-                className="py-2 text-sm hover:text-sweden transition-colors duration-200"
+                className="py-2 text-sm hover:text-france transition-colors duration-200"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Critical Entities
               </a>
               <a 
                 href="#conclusion" 
-                className="py-2 text-sm hover:text-sweden transition-colors duration-200"
+                className="py-2 text-sm hover:text-france transition-colors duration-200"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Conclusion

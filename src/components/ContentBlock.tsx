@@ -57,7 +57,7 @@ export const ContentBlock: React.FC<ContentBlockProps> = ({ block }) => {
 
     case "quote":
       return (
-        <blockquote className="border-l-4 border-sweden pl-4 italic my-6">
+        <blockquote className="border-l-4 border-france pl-4 italic my-6">
           <p className="text-lg">{block.content}</p>
           {block.author && (
             <footer className="text-sm text-gray-600 mt-2">— {block.author}</footer>
